@@ -12,6 +12,11 @@ on IDE terminal type -
 ```Shell
 python manage.py runserver
 ```
+or
+```
+python FusionChartsProject\manage.py runserver
+```
+
 # NOTICE
 
 If you're using the same version of Python as mine (3.9), you won't face a Virtual Environment issue.
