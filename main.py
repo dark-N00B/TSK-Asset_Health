@@ -27,7 +27,7 @@ def print_hi(name):
         c.execute('SELECT * FROM chart')
         rows = c.fetchall()
 
-        d = collections.OrderedDict() #To handle assignment error of 'd'
+        d = collections.OrderedDict()  # To handle assignment error of 'd'
 
         obj_list = []
         for row in rows:

@@ -23,7 +23,9 @@ python -m venv C:\Users\your_username\PycharmProjects\TSK-Asset_Health\venv\
 If you're facing cx_oracle not being found error after creating new venv (or for any other reason),
 on IDE terminal type -
 ```Shell
-pip install cx_Oracle
+python -m pip install cx_Oracle --upgrade
 ```
+
+Another quick note: If you're using PyCharm as the IDE for this project, it'll be better if you install Django and Cx-Oracle using Python Packages GUI in Pycharm!
 
 ### [Website](https://dark-n00b.github.io/TSK-Asset_Health/)
