@@ -1,0 +1,21 @@
+{
+    "data": [{
+        "label": "January",
+        "value": "60"
+    }, {
+        "label": "February",
+        "value": "260"
+    }, {
+        "label": "March",
+        "value": "180"
+    }, {
+        "label": "April",
+        "value": "140"
+    }, {
+        "label": "May",
+        "value": "115"
+    }, {
+        "label": "June",
+        "value": "100"
+    }]
+}
