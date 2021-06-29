@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# TSK-Asset Health (WIP)
 
-You can use the [editor on GitHub](https://github.com/dark-N00B/TSK-Asset_Health/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+This is my first web app project, built using [Django](https://www.djangoproject.com/download/) and [Python](https://www.python.org/downloads/windows/) as well as REST API
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How to compile this project
 
-### Markdown
+Install [Python](https://www.python.org/) and [Django](https://www.djangoproject.com/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Install [Pycharm](https://www.jetbrains.com/pycharm/download/) or [VS Code](https://code.visualstudio.com/)
 
-```markdown
-Syntax highlighted code block
+on IDE terminal type -
+```Shell
+python manage.py runserver
+```
+# NOTICE
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+If you're using the same version of Python as mine (3.9), you won't face a Virtual Environment issue.
+Otherwise, delete the "venv" folder and on IDE terminal type -
+```Shell
+python -m venv C:\Users\your_username\PycharmProjects\TSK-Asset_Health\venv\
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+If you're facing cx_oracle not being found error after creating new venv (or for any other reason),
+on IDE terminal type -
+```Shell
+python -m pip install cx_Oracle --upgrade
+```
 
-### Jekyll Themes
+### Another quick note:
+If you're using PyCharm as the IDE for this project, it'll be better if you install Django and Cx-Oracle using Python Packages GUI in Pycharm!
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dark-N00B/TSK-Asset_Health/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Python is the future](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+![Django](https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg)
