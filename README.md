@@ -1,4 +1,4 @@
-# pythonProject (WIP)
+# TSK-Asset Health (WIP)
 
 This is my first web app project, built using [Django](https://www.djangoproject.com/download/) and [Python](https://www.python.org/downloads/windows/) as well as REST API
 
@@ -17,7 +17,7 @@ python manage.py runserver
 If you're using the same version of Python as mine (3.9), you won't face a Virtual Environment issue.
 Otherwise, delete the "venv" folder and on IDE terminal type -
 ```Shell
-python -m venv C:\Users\your_username\PycharmProjects\pythonProject\venv\
+python -m venv C:\Users\your_username\PycharmProjects\TSK-Asset_Health\venv\
 ```
 
 If you're facing cx_oracle not being found error after creating new venv (or for any other reason),
@@ -26,4 +26,4 @@ on IDE terminal type -
 pip install cx_Oracle
 ```
 
-### [Website](https://dark-n00b.github.io/pythonProject/)
+### [Website](https://dark-n00b.github.io/TSK-Asset_Health/)
