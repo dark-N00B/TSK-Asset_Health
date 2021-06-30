@@ -3,7 +3,7 @@ import json
 import re
 
 from django.shortcuts import render
-from django.http import HttpResponse
+# from django.http import HttpResponse
 from collections import OrderedDict
 # Include the `fusioncharts.py` file that contains functions to embed the charts.
 
@@ -73,8 +73,8 @@ def myFirstChart(request):
     f.close()
     for i in range(len(dialValues)):
         dialData["dial"].append({
-        "value": dialValues[i]
-    })
+            "value": dialValues[i]
+        })
     var = "This is an output example"   # use this as an example on how to write into the frontend
     column2D = FusionCharts("column2d", "myFirstChart", "100%", "400", "myFirstchart-container", "json", dataSource)
     angulargaugeWidget = FusionCharts("angulargauge", "myFirstWidget", "100%", "200", "myFirstwidget-container", "json", widgetDataSource)
