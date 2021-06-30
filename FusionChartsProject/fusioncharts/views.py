@@ -62,7 +62,7 @@ def myFirstChart(request):
     dataSource["chart"] = chartConfig
 
     # f = open("data.json", "r")
-    f = open("test.json", "r")
+    f = open("FusionChartsProject/test.json", "r")
     c = re.sub(" *\n* }", "}", f.read())
     data = json.loads(c)
     json.dumps(data).replace("'", '"')
@@ -75,11 +75,11 @@ def myFirstChart(request):
         dialData["dial"].append({
         "value": dialValues[i]
     })
-    var = "This is an output example" #use this as an example on how to write into the frontend
+    var = "This is an output example"   # use this as an example on how to write into the frontend
     column2D = FusionCharts("column2d", "myFirstChart", "100%", "400", "myFirstchart-container", "json", dataSource)
     angulargaugeWidget = FusionCharts("angulargauge", "myFirstWidget", "100%", "200", "myFirstwidget-container", "json", widgetDataSource)
     return render(request, 'index.html', {
         'output': column2D.render(),
         'output2': angulargaugeWidget.render(),
-        'output3': var #this is how we're returning the value to the front end
+        'output3': var   # this is how we're returning the value to the front end
     })
