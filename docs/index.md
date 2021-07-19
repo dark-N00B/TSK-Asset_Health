@@ -1,6 +1,6 @@
 # TSK-Asset Health (WIP)
 
-This is my first web app project, built using [Django](https://www.djangoproject.com/download/) and [Python](https://www.python.org/downloads/windows/) as well as REST API
+This is my first [SCADA](https://en.wikipedia.org/wiki/SCADA) project, built using [Django](https://www.djangoproject.com/download/) and [Python](https://www.python.org/downloads/windows/) as well as REST API
 
 ## How to compile this project
 
